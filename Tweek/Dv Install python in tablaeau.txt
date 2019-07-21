@@ -1,0 +1,7 @@
+conda create --name Tableau-Python-Server python=3.7 anaconda
+
+activate Tableau-python-server
+pip install tabpy-server
+
+jsonscheme < 3.0
+tornado < 6.0
